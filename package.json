@@ -1,0 +1,13 @@
+{
+  "name": "javascript",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "dev": "bun main.ts --watch"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
