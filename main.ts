@@ -3,6 +3,7 @@ interface objType {
   age: number;
   reason: string;
   address: string;
+  pincode : string;
 }
 
 const name: string = "Mayank";
@@ -13,11 +14,14 @@ const reason: string = "Not Well";
 
 const address: string = "Delhi";
 
+const pincode : string = "AASSDD";
+
 const object: objType = {
   name: name,
   age: age,
   reason: reason,
-  address: address
+  address: address,
+  pincode : pincode
 };
 
 console.log({ object: object });
