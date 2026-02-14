@@ -1,23 +1,19 @@
 interface objType {
   name: string;
   age: number;
-  address: string;
-  sex: string;
+  reason: string;
 }
 
 const name: string = "Mayank";
 
 const age: number = 34;
 
-const address = "India";
-
-const sex = "Male";
+const reason = "Not Well";
 
 const object: objType = {
   name: name,
   age: age,
-  address: address,
-  sex: sex,
+  reason: reason,
 };
 
 console.log({ object: object });
